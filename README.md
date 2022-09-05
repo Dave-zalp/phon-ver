@@ -1,1 +1,1 @@
-# phon-ver
+# php-phone-validator
