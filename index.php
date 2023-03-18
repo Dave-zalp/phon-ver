@@ -11,7 +11,7 @@ if (isset($_POST['search'])) {
     CURLOPT_URL => "https://api.apilayer.com/number_verification/validate?number=$number",
     CURLOPT_HTTPHEADER => array(
       "Content-Type: text/plain",
-      "apikey: 5Xbp9HHp3kJAiHYqnS3qcQwXdhlr15eF"
+      "apikey: " // Your API Key
     ),
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_ENCODING => "",
